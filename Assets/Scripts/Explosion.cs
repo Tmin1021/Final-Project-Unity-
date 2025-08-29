@@ -7,6 +7,7 @@ public class Explosion : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] float radius = 1.5f;
+    [SerializeField] int damage = 2;
     void Start()
     {
         Explode();
@@ -21,6 +22,13 @@ public class Explosion : MonoBehaviour
 
     void Explode()
     {
-        // Do something
+        Collider[] colliders = Physics.OverlapSphere(transform.position, radius);
+        foreach (Collider hit in colliders)
+        {
+            if (hit.CompareTag("Player"))
+            {
+                hit.PlayHealth.TakeDamage(damage);
+            }
+        }
     }
 }
