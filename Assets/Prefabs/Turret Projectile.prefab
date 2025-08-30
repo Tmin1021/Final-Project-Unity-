@@ -146,6 +146,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ce7f116addc86243a7c4d9ae8ae8d8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 15
+  speed: 20
   projectileHitVFX: {fileID: 3447684792537375075, guid: 574ff4c4142034940957225d77116f7f,
     type: 3}

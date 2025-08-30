@@ -50,9 +50,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9e5710b7401cbc43a47ea4591b60dfb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  robotPrefab: {fileID: 7713192192006479352, guid: 54df7c06e4c076b43add8f13adfd57dd,
+  robotPrefab: {fileID: 5864956787258362162, guid: a0761fa96ab2f2b4b881c9b2ef5870a4,
     type: 3}
-  spawnTime: 10
+  spawnTime: 3
   spawnPoint: {fileID: 3096888144753428352}
 --- !u!65 &3737270951976726679
 BoxCollider:
@@ -88,7 +88,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startHealth: 5
-  robotExplosionVFX: {fileID: 0}
+  robotExplosionVFX: {fileID: 3447684792537375075, guid: 38e48461e297e5a4598fe85c1909323f,
+    type: 3}
 --- !u!1 &1745497659493552054
 GameObject:
   m_ObjectHideFlags: 0

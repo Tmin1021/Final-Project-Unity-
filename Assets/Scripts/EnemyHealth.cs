@@ -26,7 +26,6 @@ public class EnemyHealth : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            gameManager.BotsLeft(-1);
             GoExplode();
         }
     }
@@ -34,6 +33,7 @@ public class EnemyHealth : MonoBehaviour
     public void GoExplode()
     {
         Instantiate(robotExplosionVFX, transform.position, Quaternion.identity);
+        gameManager.BotsLeft(-1);
         Destroy(gameObject);
     }
 }
