@@ -40,9 +40,13 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void AdjustShieldUI()
     {
-        for (int i = startHealth-1; i >= currentHealth; i--)
+        for (int i = 0; i < shieldBars.Length; i++)
         {
-            shieldBars[i].gameObject.SetActive(false);
+            if (currentHealth > i)
+            {
+                shieldBars[i].gameObject.SetActive(true);
+            }
+            else shieldBars[i].gameObject.SetActive(false);
         }
     }
 }
