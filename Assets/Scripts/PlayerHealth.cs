@@ -2,11 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using StarterAssets;
 
 public class PlayerHealth : MonoBehaviour
 {
     [SerializeField] int startHealth = 10;
     [SerializeField] Image[] shieldBars;
+    [SerializeField] GameObject gameOverCanvas;
 
     int currentHealth;
     // Start is called before the first frame update
@@ -23,8 +25,16 @@ public class PlayerHealth : MonoBehaviour
         // Debug.Log(damage + "damage taken");
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            GameOver();
         }
+    }
+
+    void GameOver()
+    {
+        gameOverCanvas.SetActive(true);
+        StarterAssetsInputs starterAssetsInputs = FindFirstObjectByType<StarterAssetsInputs>();
+        starterAssetsInputs.SetCursorState(false);
+        Destroy(gameObject);
     }
 
     // Update is called once per frame
