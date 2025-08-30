@@ -11,7 +11,7 @@ public class Weapon : MonoBehaviour
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, Mathf.Infinity, interactioLayers, QueryTriggerInteraction.Ignore))
         {
             muzzleFlash.Play();
-            EnemyHealth enemy = hit.collider.GetComponent<EnemyHealth>();
+            EnemyHealth enemy = hit.collider.GetComponentInParent<EnemyHealth>();
             Instantiate(weaponSO.hitVFX, hit.point, Quaternion.identity);
             if (enemy)
             {
