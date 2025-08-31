@@ -755,7 +755,7 @@ MonoBehaviour:
     type: 3}
   projectileSpawnPoint: {fileID: 7057203448572596353}
   fireRate: 2
-  damage: 2
+  damage: 3
 --- !u!114 &2475674464017207919
 MonoBehaviour:
   m_ObjectHideFlags: 0

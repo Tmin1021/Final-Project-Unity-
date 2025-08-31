@@ -21,4 +21,4 @@ MonoBehaviour:
   canZoom: 0
   zoomFOV: 10
   rotationSpeed: 0.3
-  magazineSize: 50
+  magazineSize: 30

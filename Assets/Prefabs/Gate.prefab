@@ -52,7 +52,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   robotPrefab: {fileID: 5864956787258362162, guid: a0761fa96ab2f2b4b881c9b2ef5870a4,
     type: 3}
-  spawnTime: 3
+  spawnTime: 4
   spawnPoint: {fileID: 3096888144753428352}
 --- !u!65 &3737270951976726679
 BoxCollider:
