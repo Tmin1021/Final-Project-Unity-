@@ -67,6 +67,11 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("Main"); // health pickup + ammo pickup
     }
 
+    public void ComingSoonScene()
+    {
+        SceneManager.LoadScene("Coming Soon");
+    }
+
     public void QuitButton()
     {
         Application.Quit();
