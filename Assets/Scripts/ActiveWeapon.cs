@@ -3,7 +3,6 @@ using StarterAssets;
 using UnityEngine.AI;
 using UnityEngine.InputSystem;
 using Cinemachine;
-using Microsoft.Unity.VisualStudio.Editor;
 using TMPro;
 
 public class ActiveWeapon : MonoBehaviour

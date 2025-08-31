@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using StarterAssets;
 using TMPro;
-using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
