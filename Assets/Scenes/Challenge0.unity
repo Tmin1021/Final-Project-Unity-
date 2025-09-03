@@ -17149,7 +17149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64040c4cef48e494fbab0e0ed03f871e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: '[Enemy explodes when too close!]'
+  message: '[Tips: Hold LShift to sprint!]'
   showFrom: 0
   showTo: 2
   ignoreTimeScale: 0
