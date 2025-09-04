@@ -995,7 +995,7 @@ PrefabInstance:
     - target: {fileID: 3805413928996881933, guid: c7e776c4c0d7c3a44aa1b362a61f220e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.92
+      value: 4.8
       objectReference: {fileID: 0}
     - target: {fileID: 3805413928996881933, guid: c7e776c4c0d7c3a44aa1b362a61f220e,
         type: 3}
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 165550606}
   - component: {fileID: 165550605}
   m_Layer: 5
-  m_Name: Shield Bar
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1183,7 +1183,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1275,7 +1275,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187442336}
   m_Layer: 5
-  m_Name: Shield Container
+  m_Name: Health Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 226074470}
   - component: {fileID: 226074469}
   m_Layer: 5
-  m_Name: Shield Bar (3)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1494,7 +1494,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1569,7 +1569,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 35f00806389d3d94c954afe765a3dab1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df0865c1af203a04ca4b2a2f8be37428, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 378940582}
   - component: {fileID: 378940581}
   m_Layer: 5
-  m_Name: Shield Icon
+  m_Name: Heart Icon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2268,8 +2268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 100, y: 0}
+  m_AnchoredPosition: {x: 55, y: 1}
+  m_SizeDelta: {x: 115.885, y: 30.699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &378940581
 MonoBehaviour:
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5074fda661700cd48a15e454b1dcaac3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c23e8f57480116e4e91f650ac3e6a73b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2486,7 +2486,7 @@ GameObject:
   - component: {fileID: 527263357}
   - component: {fileID: 527263356}
   m_Layer: 5
-  m_Name: Shield Bar (7)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2531,7 +2531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2616,8 +2616,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4292736107
+  m_fontColor: {r: 0.4196078, g: 0.95686275, b: 0.8675517, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7922,7 +7922,7 @@ GameObject:
   - component: {fileID: 982824652}
   - component: {fileID: 982824651}
   m_Layer: 5
-  m_Name: Shield Bar (8)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7967,7 +7967,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17182,7 +17182,7 @@ GameObject:
   - component: {fileID: 1209863893}
   - component: {fileID: 1209863894}
   m_Layer: 5
-  m_Name: Shield Bar Grid Layout
+  m_Name: Health Bars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17238,7 +17238,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 1
   m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: -60, y: 0}
+  m_Spacing: {x: -64.52, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &1214703617
@@ -20058,7 +20058,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8eb8d8bc23cad194983f7ba066301ce7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 420f124bc27f86047ba0f392bbd54368, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21389,7 +21389,7 @@ GameObject:
   - component: {fileID: 1668468082}
   - component: {fileID: 1668468081}
   m_Layer: 5
-  m_Name: Shield Bar (6)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21434,7 +21434,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21635,7 +21635,7 @@ GameObject:
   - component: {fileID: 1726916738}
   - component: {fileID: 1726916737}
   m_Layer: 5
-  m_Name: Shield Bar (5)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21680,7 +21680,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22223,7 +22223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768345146}
   m_Layer: 0
-  m_Name: Pickups
+  m_Name: q
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22267,7 +22267,7 @@ GameObject:
   - component: {fileID: 1771929745}
   - component: {fileID: 1771929744}
   m_Layer: 5
-  m_Name: Shield Bar (9)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22312,7 +22312,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22416,7 +22416,7 @@ GameObject:
   - component: {fileID: 1798033454}
   - component: {fileID: 1798033453}
   m_Layer: 5
-  m_Name: Shield Bar (1)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22461,7 +22461,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23148,7 +23148,7 @@ GameObject:
   - component: {fileID: 2023039513}
   - component: {fileID: 2023039512}
   m_Layer: 5
-  m_Name: Shield Bar (2)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23193,7 +23193,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24395,7 +24395,7 @@ GameObject:
   - component: {fileID: 2043902104}
   - component: {fileID: 2043902103}
   m_Layer: 5
-  m_Name: Shield Bar (4)
+  m_Name: Health Bar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24440,7 +24440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 53a7c9c4a3d10b844878ea646c9ccd70, type: 3}
+  m_Sprite: {fileID: 21300000, guid: feaa4fb9c8b7378498e037154f45c49a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -24525,8 +24525,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4283020793
+  m_fontColor: {r: 0.9764706, g: 0.70797724, b: 0.28627452, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
